@@ -131,11 +131,11 @@ data/classification_preprocessed/
 ```text
 Датасет SEN12FLOOD - размеченный набор данных,который был найден на просторах интернета
 
-[SEN12FLOOD](https://disk.yandex.ru/d/XtC36k5O_71mBQ)
+[SEN12FLOOD] (https://disk.yandex.ru/d/XtC36k5O_71mBQ)
 
 Датасет SEN-MZYMTA-FLOOD - набор данных, который был скачан мною реки Мзымта и её окрестностей
 
-[SEN-MZYMTA-FLOOD](https://disk.yandex.ru/d/uRU8vdM7QJ-cvA)
+[SEN-MZYMTA-FLOOD] (https://disk.yandex.ru/d/uRU8vdM7QJ-cvA)
 
 
 ```

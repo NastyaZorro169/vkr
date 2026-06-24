@@ -1,0 +1,24 @@
+{
+  "run_name": "MobileNetV2_freeze_exp02_unfrozen",
+  "model_title": "MobileNetV2",
+  "best_epoch": 22,
+  "epochs_completed": 34,
+  "stopped_early": true,
+  "best_metric_name": "f1",
+  "best_metric_value": 0.8633879781420765,
+  "best_metrics": {
+    "accuracy": 0.8641304347826086,
+    "precision": 0.8681318681318682,
+    "recall": 0.8586956521739131,
+    "f1": 0.8633879781420765,
+    "roc_auc": 0.9076086956521738,
+    "loss": 0.6948447600007057
+  },
+  "elapsed_seconds": 2112.7555887699127,
+  "elapsed_time": "35m 12s",
+  "parameters": {
+    "total": 2226434,
+    "trainable": 2226434
+  },
+  "run_dir": "c:\\Users\\anast\\Desktop\\Study\\dyplom\\flood_project\\data\\classification_runs\\MobileNetV2_freeze_exp02_unfrozen"
+}

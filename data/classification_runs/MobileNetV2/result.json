@@ -1,0 +1,36 @@
+{
+  "model": "MobileNetV2",
+  "best_epoch": 336,
+  "best_score": 0.8409291756091403,
+  "save_best_by": "roc_auc",
+  "test_loss": 0.7479473935084396,
+  "test_accuracy": 0.7415730337078652,
+  "test_precision": 0.7529411764705882,
+  "test_recall": 0.7191011235955056,
+  "test_f1": 0.735632183908046,
+  "test_roc_auc": 0.80494887009216,
+  "confusion_matrix": [
+    [
+      68,
+      21
+    ],
+    [
+      25,
+      64
+    ]
+  ],
+  "elapsed_seconds": 9259.020467996597,
+  "settings": {
+    "data_root": "c:\\Users\\anast\\Desktop\\Study\\диплом\\flood_project\\data\\classification_preprocessed",
+    "epochs": 400,
+    "batch_size": 16,
+    "lr": 0.0003,
+    "weight_decay": 0.0,
+    "resize_size": 256,
+    "image_size": 224,
+    "freeze": true,
+    "device": "cpu",
+    "cpu_threads": 15,
+    "num_workers": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "run_name": "MobileNetV2_wd_exp01_wd1e-5",
+  "model_title": "MobileNetV2",
+  "best_epoch": 46,
+  "epochs_completed": 58,
+  "stopped_early": true,
+  "best_metric_name": "f1",
+  "best_metric_value": 0.6804123711340206,
+  "best_metrics": {
+    "accuracy": 0.6630434782608695,
+    "precision": 0.6470588235294118,
+    "recall": 0.717391304347826,
+    "f1": 0.6804123711340206,
+    "roc_auc": 0.6792296786389413,
+    "loss": 1.4477276335591855
+  },
+  "elapsed_seconds": 1573.1972789764404,
+  "elapsed_time": "26m 13s",
+  "parameters": {
+    "total": 2226434,
+    "trainable": 2562
+  },
+  "run_dir": "c:\\Users\\anast\\Desktop\\Study\\dyplom\\flood_project\\data\\classification_runs\\MobileNetV2_wd_exp01_wd1e-5"
+}

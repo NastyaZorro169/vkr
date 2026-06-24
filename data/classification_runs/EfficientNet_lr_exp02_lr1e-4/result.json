@@ -1,0 +1,24 @@
+{
+  "run_name": "EfficientNet_lr_exp02_lr1e-4",
+  "model_title": "EfficientNetB0",
+  "best_epoch": 15,
+  "epochs_completed": 27,
+  "stopped_early": true,
+  "best_metric_name": "f1",
+  "best_metric_value": 0.8556149732620321,
+  "best_metrics": {
+    "accuracy": 0.8532608695652174,
+    "precision": 0.8421052631578947,
+    "recall": 0.8695652173913043,
+    "f1": 0.8556149732620321,
+    "roc_auc": 0.9121573724007561,
+    "loss": 0.8733538538344083
+  },
+  "elapsed_seconds": 2145.8168160915375,
+  "elapsed_time": "35m 45s",
+  "parameters": {
+    "total": 4010110,
+    "trainable": 4010110
+  },
+  "run_dir": "c:\\Users\\anast\\Desktop\\Study\\dyplom\\flood_project\\data\\classification_runs\\EfficientNet_lr_exp02_lr1e-4"
+}

@@ -1,0 +1,36 @@
+{
+  "model": "ResNet101",
+  "best_epoch": 320,
+  "best_score": 0.8586037116525691,
+  "save_best_by": "roc_auc",
+  "test_loss": 0.4857594102955936,
+  "test_accuracy": 0.8146067415730337,
+  "test_precision": 0.7692307692307693,
+  "test_recall": 0.898876404494382,
+  "test_f1": 0.8290155440414507,
+  "test_roc_auc": 0.8423178891554096,
+  "confusion_matrix": [
+    [
+      65,
+      24
+    ],
+    [
+      9,
+      80
+    ]
+  ],
+  "elapsed_seconds": 34319.40373778343,
+  "settings": {
+    "data_root": "c:\\Users\\anast\\Desktop\\Study\\диплом\\flood_project\\data\\classification_preprocessed",
+    "epochs": 400,
+    "batch_size": 8,
+    "lr": 0.0003,
+    "weight_decay": 0.0,
+    "resize_size": 256,
+    "image_size": 224,
+    "freeze": true,
+    "device": "cpu",
+    "cpu_threads": 15,
+    "num_workers": 0
+  }
+}

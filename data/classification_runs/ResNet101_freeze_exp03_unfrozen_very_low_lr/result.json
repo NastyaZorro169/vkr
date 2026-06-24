@@ -1,0 +1,24 @@
+{
+  "run_name": "ResNet101_freeze_exp03_unfrozen_very_low_lr",
+  "model_title": "ResNet101",
+  "best_epoch": 27,
+  "epochs_completed": 39,
+  "stopped_early": true,
+  "best_metric_name": "f1",
+  "best_metric_value": 0.8252427184466019,
+  "best_metrics": {
+    "accuracy": 0.8043478260869565,
+    "precision": 0.7456140350877193,
+    "recall": 0.9239130434782609,
+    "f1": 0.8252427184466019,
+    "roc_auc": 0.8655482041587902,
+    "loss": 0.4949416187794312
+  },
+  "elapsed_seconds": 10390.600807189941,
+  "elapsed_time": "2h 53m 10s",
+  "parameters": {
+    "total": 42504258,
+    "trainable": 42504258
+  },
+  "run_dir": "c:\\Users\\anast\\Desktop\\Study\\dyplom\\flood_project\\data\\classification_runs\\ResNet101_freeze_exp03_unfrozen_very_low_lr"
+}

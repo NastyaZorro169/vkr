@@ -1,0 +1,8 @@
+                precision    recall  f1-score   support
+
+без_затопления       0.88      0.73      0.80        89
+    затопление       0.77      0.90      0.83        89
+
+      accuracy                           0.81       178
+     macro avg       0.82      0.81      0.81       178
+  weighted avg       0.82      0.81      0.81       178

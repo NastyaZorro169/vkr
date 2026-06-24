@@ -1,0 +1,36 @@
+{
+  "model": "EfficientNetB0",
+  "best_epoch": 328,
+  "best_score": 0.8156798384042419,
+  "save_best_by": "roc_auc",
+  "test_loss": 1.0392072382435371,
+  "test_accuracy": 0.6797752808988764,
+  "test_precision": 0.7051282051282052,
+  "test_recall": 0.6179775280898876,
+  "test_f1": 0.6586826347305389,
+  "test_roc_auc": 0.7577326095190001,
+  "confusion_matrix": [
+    [
+      66,
+      23
+    ],
+    [
+      34,
+      55
+    ]
+  ],
+  "elapsed_seconds": 9679.563868761063,
+  "settings": {
+    "data_root": "c:\\Users\\anast\\Desktop\\Study\\диплом\\flood_project\\data\\classification_preprocessed",
+    "epochs": 400,
+    "batch_size": 16,
+    "lr": 0.0003,
+    "weight_decay": 0.0,
+    "resize_size": 256,
+    "image_size": 224,
+    "freeze": true,
+    "device": "cpu",
+    "cpu_threads": 15,
+    "num_workers": 0
+  }
+}

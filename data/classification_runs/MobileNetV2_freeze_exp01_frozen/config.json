@@ -1,0 +1,16 @@
+{
+  "model_title": "MobileNetV2",
+  "run_name": "MobileNetV2_freeze_exp01_frozen",
+  "epochs": 80,
+  "batch_size": 16,
+  "lr": 0.0001,
+  "weight_decay": 1e-05,
+  "image_size": 224,
+  "pretrained": true,
+  "freeze_backbone": true,
+  "use_class_weights": false,
+  "num_workers": 0,
+  "seed": 42,
+  "save_best_by": "f1",
+  "early_stopping_patience": 12
+}

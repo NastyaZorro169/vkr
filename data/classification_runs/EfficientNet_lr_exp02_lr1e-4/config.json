@@ -1,0 +1,16 @@
+{
+  "model_title": "EfficientNetB0",
+  "run_name": "EfficientNet_lr_exp02_lr1e-4",
+  "epochs": 80,
+  "batch_size": 8,
+  "lr": 0.0001,
+  "weight_decay": 0.0001,
+  "image_size": 224,
+  "pretrained": true,
+  "freeze_backbone": false,
+  "use_class_weights": false,
+  "num_workers": 0,
+  "seed": 42,
+  "save_best_by": "f1",
+  "early_stopping_patience": 12
+}

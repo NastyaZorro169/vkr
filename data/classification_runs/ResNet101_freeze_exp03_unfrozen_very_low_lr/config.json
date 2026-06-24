@@ -1,0 +1,16 @@
+{
+  "model_title": "ResNet101",
+  "run_name": "ResNet101_freeze_exp03_unfrozen_very_low_lr",
+  "epochs": 80,
+  "batch_size": 4,
+  "lr": 1.4999999999999999e-05,
+  "weight_decay": 1e-05,
+  "image_size": 224,
+  "pretrained": true,
+  "freeze_backbone": false,
+  "use_class_weights": false,
+  "num_workers": 0,
+  "seed": 42,
+  "save_best_by": "f1",
+  "early_stopping_patience": 12
+}

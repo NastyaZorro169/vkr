@@ -1,0 +1,24 @@
+{
+  "run_name": "ResNet101_lr_exp03_lr3e-4",
+  "model_title": "ResNet101",
+  "best_epoch": 26,
+  "epochs_completed": 38,
+  "stopped_early": true,
+  "best_metric_name": "f1",
+  "best_metric_value": 0.82,
+  "best_metrics": {
+    "accuracy": 0.8043478260869565,
+    "precision": 0.7592592592592593,
+    "recall": 0.8913043478260869,
+    "f1": 0.82,
+    "roc_auc": 0.8653119092627599,
+    "loss": 0.5567470465017401
+  },
+  "elapsed_seconds": 3078.3024756908417,
+  "elapsed_time": "51m 18s",
+  "parameters": {
+    "total": 42504258,
+    "trainable": 4098
+  },
+  "run_dir": "c:\\Users\\anast\\Desktop\\Study\\dyplom\\flood_project\\data\\classification_runs\\ResNet101_lr_exp03_lr3e-4"
+}

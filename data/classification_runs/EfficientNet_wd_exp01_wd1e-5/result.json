@@ -1,0 +1,24 @@
+{
+  "run_name": "EfficientNet_wd_exp01_wd1e-5",
+  "model_title": "EfficientNetB0",
+  "best_epoch": 7,
+  "epochs_completed": 19,
+  "stopped_early": true,
+  "best_metric_name": "f1",
+  "best_metric_value": 0.8478260869565217,
+  "best_metrics": {
+    "accuracy": 0.8478260869565217,
+    "precision": 0.8478260869565217,
+    "recall": 0.8478260869565217,
+    "f1": 0.8478260869565217,
+    "roc_auc": 0.9063681474480151,
+    "loss": 0.8221561251127202
+  },
+  "elapsed_seconds": 1511.1651420593262,
+  "elapsed_time": "25m 11s",
+  "parameters": {
+    "total": 4010110,
+    "trainable": 4010110
+  },
+  "run_dir": "c:\\Users\\anast\\Desktop\\Study\\dyplom\\flood_project\\data\\classification_runs\\EfficientNet_wd_exp01_wd1e-5"
+}

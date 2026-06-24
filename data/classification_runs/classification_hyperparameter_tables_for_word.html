@@ -1,0 +1,460 @@
+<html><head><meta charset='utf-8'></head><body>
+<h1>Таблицы подбора гиперпараметров</h1>
+<h2>MobileNetV2</h2>
+<h3>Скорость обучения. Лучшее значение по F1-score: 1e-04</h3>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Сравниваемый параметр: Скорость обучения</th>
+      <th>best_accuracy</th>
+      <th>best_precision</th>
+      <th>best_recall</th>
+      <th>best_f1</th>
+      <th>best_roc_auc</th>
+      <th>best_loss</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>5e-05</td>
+      <td>0,608696</td>
+      <td>0,596154</td>
+      <td>0,673913</td>
+      <td>0,632653</td>
+      <td>0,616730</td>
+      <td>1,716284</td>
+    </tr>
+    <tr>
+      <td>1e-04</td>
+      <td>0,663043</td>
+      <td>0,647059</td>
+      <td>0,717391</td>
+      <td>0,680412</td>
+      <td>0,679230</td>
+      <td>1,447728</td>
+    </tr>
+    <tr>
+      <td>3e-04</td>
+      <td>0,646739</td>
+      <td>0,623853</td>
+      <td>0,739130</td>
+      <td>0,676617</td>
+      <td>0,665406</td>
+      <td>1,521938</td>
+    </tr>
+  </tbody>
+</table>
+<h3>Коэффициент регуляризации weight decay. Лучшее значение по F1-score: 1e-05</h3>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Сравниваемый параметр: Коэффициент регуляризации weight decay</th>
+      <th>best_accuracy</th>
+      <th>best_precision</th>
+      <th>best_recall</th>
+      <th>best_f1</th>
+      <th>best_roc_auc</th>
+      <th>best_loss</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1e-05</td>
+      <td>0,663043</td>
+      <td>0,647059</td>
+      <td>0,717391</td>
+      <td>0,680412</td>
+      <td>0,679230</td>
+      <td>1,447728</td>
+    </tr>
+    <tr>
+      <td>1e-04</td>
+      <td>0,663043</td>
+      <td>0,647059</td>
+      <td>0,717391</td>
+      <td>0,680412</td>
+      <td>0,679230</td>
+      <td>1,447728</td>
+    </tr>
+    <tr>
+      <td>0,001</td>
+      <td>0,663043</td>
+      <td>0,647059</td>
+      <td>0,717391</td>
+      <td>0,680412</td>
+      <td>0,679230</td>
+      <td>1,447407</td>
+    </tr>
+  </tbody>
+</table>
+<h3>Режим дообучения backbone. Лучшее значение по F1-score: False</h3>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Сравниваемый параметр: Режим дообучения backbone</th>
+      <th>best_accuracy</th>
+      <th>best_precision</th>
+      <th>best_recall</th>
+      <th>best_f1</th>
+      <th>best_roc_auc</th>
+      <th>best_loss</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>False</td>
+      <td>0,864130</td>
+      <td>0,868132</td>
+      <td>0,858696</td>
+      <td>0,863388</td>
+      <td>0,907609</td>
+      <td>0,694845</td>
+    </tr>
+    <tr>
+      <td>False</td>
+      <td>0,858696</td>
+      <td>0,830000</td>
+      <td>0,902174</td>
+      <td>0,864583</td>
+      <td>0,894967</td>
+      <td>0,658960</td>
+    </tr>
+    <tr>
+      <td>True</td>
+      <td>0,663043</td>
+      <td>0,647059</td>
+      <td>0,717391</td>
+      <td>0,680412</td>
+      <td>0,679230</td>
+      <td>1,447728</td>
+    </tr>
+  </tbody>
+</table>
+<h2>ResNet101</h2>
+<h3>Скорость обучения. Лучшее значение по F1-score: 3e-04</h3>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Сравниваемый параметр: Скорость обучения</th>
+      <th>best_accuracy</th>
+      <th>best_precision</th>
+      <th>best_recall</th>
+      <th>best_f1</th>
+      <th>best_roc_auc</th>
+      <th>best_loss</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>5e-05</td>
+      <td>0,744565</td>
+      <td>0,731959</td>
+      <td>0,771739</td>
+      <td>0,751323</td>
+      <td>0,786153</td>
+      <td>0,639625</td>
+    </tr>
+    <tr>
+      <td>1e-04</td>
+      <td>0,766304</td>
+      <td>0,733333</td>
+      <td>0,836957</td>
+      <td>0,781726</td>
+      <td>0,824433</td>
+      <td>0,588324</td>
+    </tr>
+    <tr>
+      <td>3e-04</td>
+      <td>0,804348</td>
+      <td>0,759259</td>
+      <td>0,891304</td>
+      <td>0,820000</td>
+      <td>0,865312</td>
+      <td>0,556747</td>
+    </tr>
+  </tbody>
+</table>
+<h3>Коэффициент регуляризации weight decay. Лучшее значение по F1-score: 1e-05</h3>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Сравниваемый параметр: Коэффициент регуляризации weight decay</th>
+      <th>best_accuracy</th>
+      <th>best_precision</th>
+      <th>best_recall</th>
+      <th>best_f1</th>
+      <th>best_roc_auc</th>
+      <th>best_loss</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1e-05</td>
+      <td>0,804348</td>
+      <td>0,759259</td>
+      <td>0,891304</td>
+      <td>0,820000</td>
+      <td>0,865312</td>
+      <td>0,556738</td>
+    </tr>
+    <tr>
+      <td>1e-04</td>
+      <td>0,804348</td>
+      <td>0,759259</td>
+      <td>0,891304</td>
+      <td>0,820000</td>
+      <td>0,865312</td>
+      <td>0,556747</td>
+    </tr>
+    <tr>
+      <td>0,001</td>
+      <td>0,804348</td>
+      <td>0,759259</td>
+      <td>0,891304</td>
+      <td>0,820000</td>
+      <td>0,865312</td>
+      <td>0,556769</td>
+    </tr>
+  </tbody>
+</table>
+<h3>Режим дообучения backbone. Лучшее значение по F1-score: False</h3>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Сравниваемый параметр: Режим дообучения backbone</th>
+      <th>best_accuracy</th>
+      <th>best_precision</th>
+      <th>best_recall</th>
+      <th>best_f1</th>
+      <th>best_roc_auc</th>
+      <th>best_loss</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>False</td>
+      <td>0,842391</td>
+      <td>0,811881</td>
+      <td>0,891304</td>
+      <td>0,849741</td>
+      <td>0,906664</td>
+      <td>0,394414</td>
+    </tr>
+    <tr>
+      <td>False</td>
+      <td>0,804348</td>
+      <td>0,745614</td>
+      <td>0,923913</td>
+      <td>0,825243</td>
+      <td>0,865548</td>
+      <td>0,494942</td>
+    </tr>
+    <tr>
+      <td>True</td>
+      <td>0,804348</td>
+      <td>0,759259</td>
+      <td>0,891304</td>
+      <td>0,820000</td>
+      <td>0,865312</td>
+      <td>0,556738</td>
+    </tr>
+  </tbody>
+</table>
+<h2>EfficientNetB0</h2>
+<h3>Скорость обучения. Лучшее значение по F1-score: 3e-04</h3>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Сравниваемый параметр: Скорость обучения</th>
+      <th>best_accuracy</th>
+      <th>best_precision</th>
+      <th>best_recall</th>
+      <th>best_f1</th>
+      <th>best_roc_auc</th>
+      <th>best_loss</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>5e-05</td>
+      <td>0,836957</td>
+      <td>0,836957</td>
+      <td>0,836957</td>
+      <td>0,836957</td>
+      <td>0,884393</td>
+      <td>1,002715</td>
+    </tr>
+    <tr>
+      <td>1e-04</td>
+      <td>0,853261</td>
+      <td>0,842105</td>
+      <td>0,869565</td>
+      <td>0,855615</td>
+      <td>0,912157</td>
+      <td>0,873354</td>
+    </tr>
+    <tr>
+      <td>3e-04</td>
+      <td>0,869565</td>
+      <td>0,840000</td>
+      <td>0,913043</td>
+      <td>0,875000</td>
+      <td>0,942462</td>
+      <td>0,566038</td>
+    </tr>
+  </tbody>
+</table>
+<h3>Размер пакета. Лучшее значение по F1-score: 16</h3>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Сравниваемый параметр: Размер пакета</th>
+      <th>best_accuracy</th>
+      <th>best_precision</th>
+      <th>best_recall</th>
+      <th>best_f1</th>
+      <th>best_roc_auc</th>
+      <th>best_loss</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>4</td>
+      <td>0,864130</td>
+      <td>0,845361</td>
+      <td>0,891304</td>
+      <td>0,867725</td>
+      <td>0,921491</td>
+      <td>0,655052</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>0,869565</td>
+      <td>0,833333</td>
+      <td>0,923913</td>
+      <td>0,876289</td>
+      <td>0,919423</td>
+      <td>0,596885</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>0,885870</td>
+      <td>0,858586</td>
+      <td>0,923913</td>
+      <td>0,890052</td>
+      <td>0,922850</td>
+      <td>0,690739</td>
+    </tr>
+  </tbody>
+</table>
+<h3>Коэффициент регуляризации weight decay. Лучшее значение по F1-score: 0,001</h3>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Сравниваемый параметр: Коэффициент регуляризации weight decay</th>
+      <th>best_accuracy</th>
+      <th>best_precision</th>
+      <th>best_recall</th>
+      <th>best_f1</th>
+      <th>best_roc_auc</th>
+      <th>best_loss</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1e-05</td>
+      <td>0,847826</td>
+      <td>0,847826</td>
+      <td>0,847826</td>
+      <td>0,847826</td>
+      <td>0,906368</td>
+      <td>0,822156</td>
+    </tr>
+    <tr>
+      <td>1e-04</td>
+      <td>0,869565</td>
+      <td>0,840000</td>
+      <td>0,913043</td>
+      <td>0,875000</td>
+      <td>0,942462</td>
+      <td>0,566038</td>
+    </tr>
+    <tr>
+      <td>0,001</td>
+      <td>0,869565</td>
+      <td>0,833333</td>
+      <td>0,923913</td>
+      <td>0,876289</td>
+      <td>0,919423</td>
+      <td>0,596885</td>
+    </tr>
+  </tbody>
+</table>
+<h1>Итоговые параметры моделей для финального обучения</h1>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Архитектура</th>
+      <th>lr</th>
+      <th>batch_size</th>
+      <th>weight_decay</th>
+      <th>freeze_backbone</th>
+      <th>image_size</th>
+      <th>best_epoch</th>
+      <th>best_accuracy</th>
+      <th>best_precision</th>
+      <th>best_recall</th>
+      <th>best_f1</th>
+      <th>best_roc_auc</th>
+      <th>best_loss</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EfficientNetB0</td>
+      <td>3e-04</td>
+      <td>16</td>
+      <td>0,001</td>
+      <td>False</td>
+      <td>224</td>
+      <td>10</td>
+      <td>0,885870</td>
+      <td>0,858586</td>
+      <td>0,923913</td>
+      <td>0,890052</td>
+      <td>0,922850</td>
+      <td>0,690739</td>
+    </tr>
+    <tr>
+      <td>MobileNetV2</td>
+      <td>5e-05</td>
+      <td>16</td>
+      <td>1e-05</td>
+      <td>False</td>
+      <td>224</td>
+      <td>14</td>
+      <td>0,858696</td>
+      <td>0,830000</td>
+      <td>0,902174</td>
+      <td>0,864583</td>
+      <td>0,894967</td>
+      <td>0,658960</td>
+    </tr>
+    <tr>
+      <td>ResNet101</td>
+      <td>3e-04</td>
+      <td>4</td>
+      <td>1e-04</td>
+      <td>False</td>
+      <td>224</td>
+      <td>19</td>
+      <td>0,869565</td>
+      <td>0,877778</td>
+      <td>0,858696</td>
+      <td>0,868132</td>
+      <td>0,941163</td>
+      <td>0,321525</td>
+    </tr>
+  </tbody>
+</table>
+</body></html>
